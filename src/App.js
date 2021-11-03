@@ -12,9 +12,10 @@ class App extends Component {
     return (
         <Router>
           <nav className="navbar navbar-expand navbar-dark bg-dark">
-            <Link to={"/tutorials"} className="navbar-brand">
-              bezKoder
-            </Link>
+            <img src="https://www.freepnglogos.com/uploads/ibm-logo-png/ibm-logo-partners-rowanalytics-5.png" height="100px" width="160px"/>
+            {/*<Link to={"/tutorials"} className="navbar-brand">*/}
+            {/*  IBM*/}
+            {/*</Link>*/}
             <div className="navbar-nav mr-auto">
               <li className="nav-item">
                 <Link to={"/tutorials"} className="nav-link">
