@@ -1,5 +1,7 @@
 package com.example.tutorialservice.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import javax.persistence.*;
 
 @Entity
@@ -17,6 +19,7 @@ public class Tutorial {
     private String description;
 
     @Column(name = "published")
+    @JsonProperty
     private boolean published;
 
     public Tutorial() {
